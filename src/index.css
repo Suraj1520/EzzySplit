@@ -1,13 +1,41 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--primary-font);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+:root {
+
+  --primary-font: "Poppins", sans-serif;
+
+  --primary-color: #6B60F1;
+
+  --text-100: #000000;
+  --text-80: #727272;
+
+
+  --text-60: #A1A1A1;
+  --text-30: #f0f0f0;
+  --text-0: #fff;
+
+
+  --bg-1-100: #ececec;
+  --shadow-1-100: #F0F0F0;
+
+  --heading-1-text-weight: 600;
+  --heading-2-text-weight: 500;
+  --paragraph-1-text-weight: 400;
+  --paragraph-2-text-weight: 300;
+
+  --grey-text-1-100: rgba(101, 108, 115, 1);
+  --grey-text-1-70: rgba(101, 108, 115, 0.7);
 }
