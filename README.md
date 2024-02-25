@@ -73,7 +73,7 @@ We welcome contributions from the community. If you would like to contribute to 
 
 ## Contact
 
-If you have any questions or need assistance with the project, you can contact us at [shibamdebnath07@gmail.com].
+If you have any questions or need assistance with the project, you can contact us at [sraj15082003@gmail.com].
 
 ---
 
